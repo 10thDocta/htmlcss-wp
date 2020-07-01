@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../img/bgr.png);
+}
+
+.body-container {
+  margin: 10px 15%;
+}
+
+/* inizio header */
+header {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.img-container {
+  position: relative;
+  height: 300px;
+  background-image: url(../img/header.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 8px solid white;
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 50px;
+  border: 4px solid white;
+  padding: 0 7px;
+  margin-bottom: 20px;
+}
+
+/* inizio nav */
+nav {
+  height: 50px;
+  background-color: #504741;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 7px;
+  line-height: 50px;
+}
+
+nav li:hover {
+  background-color: #615954;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px
+}
+
+/* inizio main */
+.main-container {
+  margin: 5px 0;
+  display: flow-root;
+}
+
+.column-left {
+  float: left;
+  height: 300px;
+  width: 29%;
+  background-color: #CC87DA;
+}
+
+.column-center {
+  float: left;
+  height: 450px;
+  width: 40%;
+  margin: 0 1%;
+  background-color: #730671;
+}
+
+.column-right {
+  float: left;
+  height: 450px;
+  width: 29%;
+}
+
+.right-up, .right-down {
+  height: 49%;
+  background-color: #CC87DA;
+}
+
+.right-up {
+  /* 2,3% perché non mi semrbava pixel perfect :D, altrimenti avrei dato 2% */
+  margin-bottom: 2%;
+}
+
+/* inizio footer */
+footer {
+  height: 50px;
+  background-color: #A4D2E1
+}
