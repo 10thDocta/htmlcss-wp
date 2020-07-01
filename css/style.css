@@ -6,6 +6,7 @@
 
 body {
   background-image: url(../img/bgr.png);
+  font-family: 'Roboto', sans-serif;
 }
 
 .body-container {
@@ -68,7 +69,7 @@ nav a {
 
 /* inizio main */
 .main-container {
-  margin: 5px 0;
+  margin: 7px 0;
   display: flow-root;
 }
 
@@ -80,26 +81,17 @@ nav a {
   border-radius: 2%
 }
 
-.rss-title {
-  text-align: center;
-  display: flow-root;
-  margin: 0 auto;
+.rss-title i, .rss-title h3 {
+  display: inline-block;
 }
 
-.rss-title .fas, .rss-title h3 {
-  margin-top: 9px;
-  float: left;
-}
-
-.rss-title .fas {
+.rss-title i {
   font-size: 30px;
   color: darkorange;
-  margin: 9px;
   vertical-align: middle;
 }
 
 .rss-title h3 {
-  line-height: 30px;
   color: #3c3b3b;
   text-shadow: 1px 1px lightgrey;
 }
@@ -167,6 +159,26 @@ nav a {
 
 /* inizio footer */
 footer {
-  height: 50px;
-  background-color: #A4D2E1
+  background-color: whitesmoke;
+  border-radius: 2%;
+  color: grey;
+}
+
+footer p {
+  text-align: center;
+  border-bottom: 1px solid grey;
+  padding: 5px 0;
+}
+
+.social {
+  text-align: center;
+}
+
+.social i {
+  font-size: 30px;
+  margin: 20px 130px;
+}
+
+.social a {
+  text-decoration: none;
 }
