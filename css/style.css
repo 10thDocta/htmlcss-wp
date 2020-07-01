@@ -39,7 +39,7 @@ header h1 {
   display: inline-block;
   font-size: 50px;
   border: 4px solid white;
-  padding: 0 7px;
+  padding: 0 8px;
   margin-bottom: 20px;
 }
 
@@ -72,21 +72,55 @@ nav a {
   display: flow-root;
 }
 
+/* colonna sinistra */
 .column-left {
   float: left;
   height: 300px;
   width: 29%;
-  background-color: #CC87DA;
+  background-color: whitesmoke;
+  border-radius: 2%
 }
 
+.rss-title {
+  text-align: center;
+  display: flow-root;
+  margin: 0 auto;
+}
+
+.rss-title .fas, .rss-title h3 {
+  float: left;
+}
+
+.fas {
+  color: darkorange
+}
+
+.column-left li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px 0;
+}
+
+.column-left a {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+.column-left section {
+  margin: 6px;
+}
+
+/* colonna centrale */
 .column-center {
   float: left;
   height: 450px;
   width: 40%;
   margin: 0 1%;
-  background-color: #730671;
+  background-color: whitesmoke;
+  border-radius: 2%
 }
 
+/* colonna destra */
 .column-right {
   float: left;
   height: 450px;
@@ -95,7 +129,8 @@ nav a {
 
 .right-up, .right-down {
   height: 49%;
-  background-color: #CC87DA;
+  background-color: whitesmoke;
+  border-radius: 2%
 }
 
 .right-up {
