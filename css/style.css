@@ -75,7 +75,6 @@ nav a {
 /* colonna sinistra */
 .column-left {
   float: left;
-  height: 300px;
   width: 29%;
   background-color: whitesmoke;
   border-radius: 2%
@@ -88,11 +87,15 @@ nav a {
 }
 
 .rss-title .fas, .rss-title h3 {
+  margin-top: 9px;
   float: left;
 }
 
 .fas {
-  color: darkorange
+  font-size: 30px;
+  color: darkorange;
+  margin: 9px;
+  vertical-align: middle;
 }
 
 .column-left li {
@@ -107,35 +110,56 @@ nav a {
 }
 
 .column-left section {
-  margin: 6px;
+  margin: 9px;
 }
 
 /* colonna centrale */
 .column-center {
   float: left;
-  height: 450px;
   width: 40%;
   margin: 0 1%;
   background-color: whitesmoke;
   border-radius: 2%
 }
 
+.column-center h3, .column-center p {
+  margin: 9px
+}
+
+.column-center h3 {
+  margin-bottom: 15px
+}
+
+.column-center p {
+  line-height: 25px
+}
+
 /* colonna destra */
 .column-right {
   float: left;
-  height: 450px;
   width: 29%;
 }
 
-.right-up, .right-down {
-  height: 49%;
+.right {
   background-color: whitesmoke;
   border-radius: 2%
 }
 
-.right-up {
+.right {
   /* 2,3% perché non mi semrbava pixel perfect :D, altrimenti avrei dato 2% */
   margin-bottom: 2%;
+}
+
+.column-right h3, .column-right p {
+  margin: 9px
+}
+
+.column-right h3 {
+  margin-bottom: 15px
+}
+
+.column-right p {
+  line-height: 25px
 }
 
 /* inizio footer */
