@@ -69,7 +69,7 @@ nav a {
 
 /* inizio main */
 .main-container {
-  margin: 7px 0;
+  margin: 9px 0;
   display: flow-root;
 }
 
@@ -78,7 +78,11 @@ nav a {
   float: left;
   width: 18%;
   background-color: whitesmoke;
-  border-radius: 2%
+  border-radius: 10px;
+}
+
+.rss-title {
+  margin-bottom: 3px;
 }
 
 .rss-title i, .rss-title h3 {
@@ -88,10 +92,12 @@ nav a {
 .rss-title i {
   font-size: 30px;
   color: darkorange;
-  vertical-align: middle;
+  vertical-align: top;
+  padding: 3px 4px 0 0;
 }
 
 .rss-title h3 {
+  width: 70%;
   color: #3c3b3b;
   text-shadow: 1px 1px lightgrey;
 }
@@ -104,6 +110,7 @@ nav a {
 
 .column-left a {
   color: darkgreen;
+  font-weight: 500;
   text-decoration: none;
 }
 
@@ -117,7 +124,7 @@ nav a {
   width: 54%;
   margin: 0 6%;
   background-color: whitesmoke;
-  border-radius: 2%
+  border-radius: 10px;
 }
 
 .container-center {
@@ -125,7 +132,7 @@ nav a {
 }
 
 .column-center h3 {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   color: #3c3b3b;
   text-shadow: 1px 1px lightgrey;
 }
@@ -142,13 +149,13 @@ nav a {
 
 .container-right {
   background-color: whitesmoke;
-  border-radius: 2%;
+  border-radius: 10px;
   padding: 20px 15px;
   margin-bottom: 20px;
 }
 
 .column-right h3 {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   color: #3c3b3b;
   text-shadow: 1px 1px lightgrey;
 }
@@ -160,7 +167,7 @@ nav a {
 /* inizio footer */
 footer {
   background-color: whitesmoke;
-  border-radius: 2%;
+  border-radius: 10px;
   color: grey;
 }
 
