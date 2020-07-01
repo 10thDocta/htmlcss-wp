@@ -75,7 +75,7 @@ nav a {
 /* colonna sinistra */
 .column-left {
   float: left;
-  width: 29%;
+  width: 18%;
   background-color: whitesmoke;
   border-radius: 2%
 }
@@ -91,11 +91,17 @@ nav a {
   float: left;
 }
 
-.fas {
+.rss-title .fas {
   font-size: 30px;
   color: darkorange;
   margin: 9px;
   vertical-align: middle;
+}
+
+.rss-title h3 {
+  line-height: 30px;
+  color: #3c3b3b;
+  text-shadow: 1px 1px lightgrey;
 }
 
 .column-left li {
@@ -109,25 +115,27 @@ nav a {
   text-decoration: none;
 }
 
-.column-left section {
+.container-left {
   margin: 9px;
 }
 
 /* colonna centrale */
 .column-center {
   float: left;
-  width: 40%;
-  margin: 0 1%;
+  width: 54%;
+  margin: 0 6%;
   background-color: whitesmoke;
   border-radius: 2%
 }
 
-.column-center h3, .column-center p {
-  margin: 9px
+.container-center {
+  margin: 20px 15px;
 }
 
 .column-center h3 {
-  margin-bottom: 15px
+  margin-bottom: 15px;
+  color: #3c3b3b;
+  text-shadow: 1px 1px lightgrey;
 }
 
 .column-center p {
@@ -137,25 +145,20 @@ nav a {
 /* colonna destra */
 .column-right {
   float: left;
-  width: 29%;
+  width: 16%;
 }
 
-.right {
+.container-right {
   background-color: whitesmoke;
-  border-radius: 2%
-}
-
-.right {
-  /* 2,3% perché non mi semrbava pixel perfect :D, altrimenti avrei dato 2% */
-  margin-bottom: 2%;
-}
-
-.column-right h3, .column-right p {
-  margin: 9px
+  border-radius: 2%;
+  padding: 20px 15px;
+  margin-bottom: 20px;
 }
 
 .column-right h3 {
-  margin-bottom: 15px
+  margin-bottom: 15px;
+  color: #3c3b3b;
+  text-shadow: 1px 1px lightgrey;
 }
 
 .column-right p {
